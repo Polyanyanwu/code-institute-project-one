@@ -90,10 +90,21 @@ body {
   height: auto;
   /* align-items:center; */
 }
+.yams > p {
+  margin: 0;
+}
+.yam-history {
+  width: 80%;
+  margin: auto;
+}
+.yams {
+  display: table-cell;
+  width: 30vw;
+}
 
 .yam-image {
-  width: 30%;
-  height: 20vh;
+  width: 98%;
+  height: 30vh;
   object-fit: cover;
   padding: 1%;
 }
@@ -149,6 +160,7 @@ h3 {
   margin: auto;
   padding-top: 12vh;
 }
+
 p {
   text-align: justify;
 }
