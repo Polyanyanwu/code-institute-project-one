@@ -92,9 +92,10 @@ body {
 }
 .yams > p {
   margin: 0;
+  font-size: 1vw;
 }
 .yam-history {
-  width: 80%;
+  width: 80vw;
   margin: auto;
 }
 .yams {
