@@ -74,10 +74,6 @@ h2 {
   height: 100%;
   width: 100%;
   object-fit:cover;
-  /* box-sizing: border-box;
-  background: url("../images/igbo-ghana.webp") center center; */
-  /* animation zoom effect on loading page */
-  /* background-position: cover; */
   animation-name: zoom-banner;
   animation-duration: 5s;
   animation-fill-mode: both;
@@ -92,23 +88,21 @@ h2 {
     transform: scale(1); 
   }
 }
-#cover-text,
-#cover-text h2 {
-  color: #ffffff;
-}
-
-
-#cover-text {
-  font-size: 130%;
-  font-family: Oswald, sans-serif;
+/* Add brief description of the banner on banner text */
+#banner-text {
+  font-size: 110%;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 4px;
-  width: 300px;
-  height: 200px;
-  padding-top: 40px;
+  letter-spacing: 3px;
+  text-align: center;
+  width: 280px;
+  height: 100px;
+  padding-top: 20px;
   padding-left: 10px;
-  background-color: rgba(241, 109, 107, 0.7);
+  background-color: rgba(52, 42, 192, 0.7);
   bottom: 30px;
-  right: 150px;
+  left: 20px;
   position: absolute;
+  border-radius: 10%;
+  color: #ffffff;
 }
