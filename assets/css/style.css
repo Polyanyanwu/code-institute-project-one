@@ -43,10 +43,10 @@ h2 {
   float: left;
   margin-right: 20px;
   list-style-type: none;
-  margin-right: 20px;
   line-height: 60px;
 }
-#menu-bar a:hover {
+#menu-bar a:hover,
+.footer-menu a:hover {
   border-top: 1px solid #252525;
   border-bottom: 1px solid #252525;
 }
@@ -56,7 +56,7 @@ h2 {
 }
 /* Underline the current page link on the menu bar */
 .selected {
-  text-decoration: underline solid;
+  /* text-decoration: underline solid; */
   border-bottom: 1px solid #252525;
   padding-bottom: 2px;
 }
@@ -161,4 +161,37 @@ hr {
 /* same line height with the other text at the left of the page */
 .image-column p {
   line-height: 25px;
+}
+
+/* footer */
+footer {
+  /* background: linear-gradient(to top, #554cac, #063db46c); */
+
+  padding-top: 0.5em;
+  text-align: center;
+  width: 100%;
+  clear: both;
+  /* color: white; */
+  /* bottom: 0;
+  right: 0;
+  z-index: 0; */
+  font-size: 1rem;
+  padding: 1% 1% 0 1%;
+  border: 2px solid #063db46c;
+}
+.footer-menu span a {
+  /* color: white; */
+  margin: 0 20px 20px 0;
+  text-decoration: none;
+  color: #252525;
+  letter-spacing: 3px;
+}
+.footer-menu {
+  margin: 0 0 10px 0;
+}
+
+.contact-us span a {
+  /* clear: both; */
+  /* display: inline-block; */
+  margin-bottom: 30px;
 }
