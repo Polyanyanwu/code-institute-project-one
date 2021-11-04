@@ -165,22 +165,15 @@ hr {
 
 /* footer */
 footer {
-  /* background: linear-gradient(to top, #554cac, #063db46c); */
-
-  padding-top: 0.5em;
   text-align: center;
   width: 100%;
-  clear: both;
-  /* color: white; */
-  /* bottom: 0;
-  right: 0;
-  z-index: 0; */
+  overflow: hidden;
   font-size: 1rem;
-  padding: 1% 1% 0 1%;
-  border: 2px solid #063db46c;
+  padding: 0.5% 1% 0.5 1%;
+  border-top: 2px solid #252525;
+  margin-top: 15px;
 }
 .footer-menu span a {
-  /* color: white; */
   margin: 0 20px 20px 0;
   text-decoration: none;
   color: #252525;
@@ -191,7 +184,7 @@ footer {
 }
 
 .contact-us span a {
-  /* clear: both; */
-  /* display: inline-block; */
-  margin-bottom: 30px;
+  margin: 0 30px 5px 30px;
+  color: #252525;
+  font-size: 150%;
 }
