@@ -39,21 +39,25 @@ h2 {
   font-size: 100%;
   letter-spacing: 3px;
 }
+
 #menu-bar li {
   float: left;
   margin-right: 20px;
   list-style-type: none;
   line-height: 60px;
 }
+
 #menu-bar a:hover,
 .footer-menu a:hover {
   border-top: 1px solid #252525;
   border-bottom: 1px solid #252525;
 }
+
 #menu-bar a {
   text-decoration: none;
   color: #252525;
 }
+
 /* Underline the current page link on the menu bar */
 .selected {
   /* text-decoration: underline solid; */
@@ -84,13 +88,15 @@ h2 {
   from {
     transform: scale(0.9);
   }
+
   to {
     transform: scale(1);
   }
 }
+
 /* Add brief description of the banner on banner text */
 #banner-text {
-  
+
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -106,10 +112,12 @@ h2 {
   border-radius: 10%;
 
 }
-#banner-text > h2 {
+
+#banner-text>h2 {
   color: #ffffff;
   font-size: 120%;
 }
+
 /* Section for the history text of yams */
 #yam-intro {
   clear: both;
@@ -118,22 +126,26 @@ h2 {
   padding: 30px;
   box-sizing: border-box;
 }
+
 hr {
   border-top: 1px solid #252525;
   width: 100%;
   margin: 3px 0;
 }
+
 /* Format of the text on the paragraphs */
 .text-div p {
   padding-top: 10px;
-  text-align: justify;
+  /* text-align: justify; */
   line-height: 25px;
 }
+
 /* some breathing space between the text and the image gallery */
 .text-div {
   padding-top: 10px;
   text-align: justify;
 }
+
 /* Image gallery of yam festivals */
 .image-gallery {
   float: right;
@@ -144,16 +156,17 @@ hr {
   padding: 30px 0;
 }
 
-.image-gallery > h2 {
+.image-gallery>h2 {
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
-/* display 3 columns of images each with 32% width with some 4px spaceing */
+
+/* display 2 columns of images each with 48% width with some 6px spaceing */
 .image-column {
-  flex: 32%;
-  max-width: 32%;
-  padding: 0 4px;
+  flex: 48%;
+  max-width: 48%;
+  padding: 0 6px;
 }
 
 .image-column img {
@@ -161,6 +174,7 @@ hr {
   vertical-align: middle;
   width: 100%;
 }
+
 /* same line height with the other text at the left of the page */
 .image-column p {
   line-height: 25px;
@@ -176,12 +190,14 @@ footer {
   border-top: 2px solid #252525;
   margin-top: 15px;
 }
+
 .footer-menu span a {
   margin: 10px 20px 20px 0;
   text-decoration: none;
   color: #252525;
   letter-spacing: 3px;
 }
+
 .footer-menu {
   margin: 10px 0 10px 0;
 }
@@ -189,6 +205,7 @@ footer {
 .contact-us span {
   margin-top: 10px 0;
 }
+
 .contact-us span a {
   margin: 0 30px 5px 30px;
   color: #252525;
@@ -197,22 +214,44 @@ footer {
 
 /* Media queries */
 
-/* For larger to medium screens size from 859px width and down. The point that our 3 panel image changes to 2 */
+/* For larger to medium screens size from 859px width and down. The point that our 2 panel image reduces  to 2 */
 @media screen and (max-width: 859px) {
   .image-column {
-    flex: 48%;
-    max-width: 48%;
     padding: 0 2px;
   }
+
+  .image-gallery {
+    width: 60%;
+    padding: 10px 0;
+  }
+
+  #yam-intro {
+    width: 40%;
+    padding: 10px;
+  }
+/* reduce our sub title text to be in line with reduced screen */
+  h1,
+  h2 {
+    font-size: 100%;
+  }
+
+  /* body {
+    font-size: 12px;
+  } */
 }
 
 /* For larger to medium screens size from 764px width and down. The point that our navigation menu gets distorted. We
-shift the menu to the left */
+shift the menu to the left. ALso change our image gallery to single column */
 @media screen and (max-width: 780px) {
   #menu-bar {
     float: left;
     /* align with the page title */
     margin-left: 20px;
   }
-}
 
+  .image-column {
+    flex: 98%;
+    max-width: 98%;
+  }
+
+}
