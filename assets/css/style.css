@@ -90,7 +90,7 @@ h2 {
 }
 /* Add brief description of the banner on banner text */
 #banner-text {
-  font-size: 110%;
+  
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -104,7 +104,11 @@ h2 {
   left: 20px;
   position: absolute;
   border-radius: 10%;
+
+}
+#banner-text > h2 {
   color: #ffffff;
+  font-size: 120%;
 }
 /* Section for the history text of yams */
 #yam-intro {
@@ -190,3 +194,25 @@ footer {
   color: #252525;
   font-size: 150%;
 }
+
+/* Media queries */
+
+/* For larger to medium screens size from 859px width and down. The point that our 3 panel image changes to 2 */
+@media screen and (max-width: 859px) {
+  .image-column {
+    flex: 48%;
+    max-width: 48%;
+    padding: 0 2px;
+  }
+}
+
+/* For larger to medium screens size from 764px width and down. The point that our navigation menu gets distorted. We
+shift the menu to the left */
+@media screen and (max-width: 780px) {
+  #menu-bar {
+    float: left;
+    /* align with the page title */
+    margin-left: 20px;
+  }
+}
+
