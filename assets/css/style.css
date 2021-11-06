@@ -141,12 +141,9 @@ main {
 
 /* Section for the history text of yams */
 #yam-intro {
-  /* clear: both; */
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   padding-top: 1rem;
-  /* float: left; */
-  /* padding: 30px; */
   text-align: center;
   box-sizing: border-box;
 }
@@ -191,6 +188,15 @@ main {
   margin: 0 auto;
   text-align: center;
   padding:  1rem;
+}
+.image > img {
+  width: 100%;
+  height: auto;
+}
+
+.videoitem > video {
+  width: 100%;
+  height: auto;
 }
 
 section > h2 {
