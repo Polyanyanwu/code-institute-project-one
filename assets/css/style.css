@@ -168,6 +168,8 @@ hr {
 .image-gallery {
   width: 70%;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 /* Image gallery of yam festivals */
 /* .image-gallery {
@@ -182,7 +184,7 @@ hr {
   /* float: right; */
   display: flex;
   /* flex-wrap: wrap; */
-  width: 100%;
+  width: 33%;
   flex-direction: column;
   box-sizing: border-box;
   padding-top: 1rem;
@@ -297,21 +299,25 @@ iframe {
     font-size: 100%;
   }
 }
-
- For larger to medium screens size from 764px width and down. The point that our navigation menu gets distorted. We
-shift the menu to the left. ALso change our image gallery to single column 
+*/
+ /* For larger to medium screens size from 764px width and down. The point that our navigation menu gets distorted. We
+shift the menu to the left. ALso change our image gallery to single column  */
 
 @media screen and (max-width: 780px) {
   #menu-bar {
     float: left;
-    align with the page title 
+    /* align with the page title  */
     margin-left: 20px;
   }
 
-  .image-column {
-    flex: 98%;
-    max-width: 98%;
+  .image-gallery {
+    width: 70%;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .image {
+    width: 90%;
   }
 
 }
-*/
