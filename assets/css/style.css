@@ -62,9 +62,17 @@ h2 {
   border-bottom: 1px solid #252525;
 }
 
-#menu-bar a {
+#menu-bar a, .videoitem a {
   text-decoration: none;
   color: #252525;
+}
+
+.videoitem a {
+  color: #252525;
+}
+.videoitem a:hover{
+  color: white;
+  background-color:  #252525;
 }
 
 main {
@@ -279,6 +287,10 @@ footer {
  For larger to medium screens size from 859px width and down. The point that our 2 panel image reduces  to 2 */
 
 @media screen and (max-width: 1050px) {
+  #title {
+    font-size: 160%;
+    line-height: 3rem;
+  }
   .image-gallery {
     width: 80%;
   }
@@ -287,7 +299,7 @@ footer {
     height:auto;
   }
   .image > img {
-    width: 50%;
+    width: 100%;
     height: auto;
   }
 
@@ -302,7 +314,7 @@ footer {
   }
   /* force to a single column stacking */
   .videoitem, .igbo-item {
-    width: 80%;
+    width: 100%;
     height: auto;
   }
   iframe {
@@ -322,13 +334,13 @@ shift the menu to the left. ALso change our image gallery to single column  */
   }
 
   .image-gallery {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     flex-wrap: nowrap;
     flex-direction: column;
   }
   .image {
-    width: 90%;
+    width: 100%;
     height: auto;
   }
   .image-intro-line {
