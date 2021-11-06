@@ -192,7 +192,13 @@ main {
   text-align: center;
   padding:  1rem;
 }
-.image-gallery>h2 {
+
+/* .image-gallery>h2 {
+  width: 100%;
+  margin: 1rem 0 auto;
+  text-align: center;
+} */
+section > h2 {
   width: 100%;
   margin: 1rem 0 auto;
   text-align: center;
@@ -223,6 +229,33 @@ main {
   line-height: 25px;
 }
 
+/* Festivals SEction with videos */
+#festival-section {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.videoitem {
+  /* float: right; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 48%;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-top: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  padding:  1rem;
+}
+
+
+iframe {
+  width: auto;
+  height: 20rem;
+}
 /* footer */
 footer {
   text-align: center;
@@ -256,24 +289,24 @@ footer {
 }
 
 /* Festival Celebrations */
-#celebration-details {
+/* #celebration-details {
   float: right;
   width: 70%;
   box-sizing: border-box;
   padding: 30px 0;
-}
+} */
 
-.videoitem {
+/* .videoitem {
   width: 80%;
   margin: 0 auto;
-}
+} */
 
-video,
+/* video,
 iframe {
   width: 80%;
   margin: auto;
   height: auto;
-}
+} */
 
 /* Media queries 
 
@@ -295,6 +328,12 @@ iframe {
   h1,
   h2 {
     font-size: 100%;
+  }
+  .videoitem {
+    width: 80%;
+  }
+  iframe {
+    height: 10rem;
   }
 }
 
