@@ -286,6 +286,10 @@ footer {
     width: 50%;
     height:auto;
   }
+  .image > img {
+    width: 50%;
+    height: auto;
+  }
 
   #yam-intro {
     width: 80%;
