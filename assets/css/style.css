@@ -134,10 +134,12 @@ main {
 /* Section for the history text of yams */
 #yam-intro {
   /* clear: both; */
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
+  padding-top: 1rem;
   /* float: left; */
   /* padding: 30px; */
+  text-align: center;
   box-sizing: border-box;
 }
 
@@ -159,7 +161,14 @@ hr {
   padding-top: 10px;
   text-align: justify;
 }
+.text-div>h2{
+  text-align: center;
+}
 
+.image-gallery {
+  width: 70%;
+  margin: 0 auto;
+}
 /* Image gallery of yam festivals */
 /* .image-gallery {
    float: right; 
@@ -172,15 +181,17 @@ hr {
 .image {
   /* float: right; */
   display: flex;
-  flex-wrap: wrap;
-  width: 70%;
+  /* flex-wrap: wrap; */
+  width: 100%;
   flex-direction: column;
   box-sizing: border-box;
-  padding: 30px 0;
+  padding-top: 1rem;
+  margin: 0 auto;
+  text-align: center;
 }
 .image-gallery>h2 {
   width: 100%;
-  margin: 0 auto;
+  margin: 1rem 0 auto;
   text-align: center;
 }
 
@@ -192,9 +203,17 @@ hr {
 }
 
 .image-column img {
-  margin-top: 15px;
+  margin-top: 1rem;
   vertical-align: middle;
   width: 100%;
+}
+
+.image-intro-line {
+  width: 20%;
+  border-top: 2px solid #252525;
+  margin:  0 auto;
+  padding-bottom: 1rem;
+
 }
 
 /* same line height with the other text at the left of the page */
@@ -254,9 +273,9 @@ iframe {
   height: auto;
 }
 
-/* Media queries */
+/* Media queries 
 
-/* For larger to medium screens size from 859px width and down. The point that our 2 panel image reduces  to 2 */
+ For larger to medium screens size from 859px width and down. The point that our 2 panel image reduces  to 2 
 @media screen and (max-width: 859px) {
   .image-column {
     padding: 0 2px;
@@ -272,23 +291,20 @@ iframe {
     padding: 10px;
   }
 
-  /* reduce our sub title text to be in line with reduced screen */
+   reduce our sub title text to be in line with reduced screen 
   h1,
   h2 {
     font-size: 100%;
   }
-
-  /* body {
-    font-size: 12px;
-  } */
 }
 
-/* For larger to medium screens size from 764px width and down. The point that our navigation menu gets distorted. We
-shift the menu to the left. ALso change our image gallery to single column */
+ For larger to medium screens size from 764px width and down. The point that our navigation menu gets distorted. We
+shift the menu to the left. ALso change our image gallery to single column 
+
 @media screen and (max-width: 780px) {
   #menu-bar {
     float: left;
-    /* align with the page title */
+    align with the page title 
     margin-left: 20px;
   }
 
@@ -298,3 +314,4 @@ shift the menu to the left. ALso change our image gallery to single column */
   }
 
 }
+*/
