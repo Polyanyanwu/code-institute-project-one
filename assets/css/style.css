@@ -143,7 +143,7 @@ main {
   box-sizing: border-box;
 }
 
-hr {
+.full-line {
   border-top: 1px solid #252525;
   width: 100%;
   margin: 3px 0;
@@ -166,7 +166,7 @@ hr {
 }
 
 .image-gallery {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -190,6 +190,7 @@ hr {
   padding-top: 1rem;
   margin: 0 auto;
   text-align: center;
+  padding:  1rem;
 }
 .image-gallery>h2 {
   width: 100%;
@@ -198,7 +199,7 @@ hr {
 }
 
 /* display 2 columns of images each with 48% width with some 6px spaceing */
-.image-column {
+/* .image-column {
   flex: 48%;
   max-width: 48%;
   padding: 0 6px;
@@ -208,14 +209,13 @@ hr {
   margin-top: 1rem;
   vertical-align: middle;
   width: 100%;
-}
+} */
 
 .image-intro-line {
   width: 20%;
-  border-top: 2px solid #252525;
+  /* border-top: 2px solid #252525; */
   margin:  0 auto;
   padding-bottom: 1rem;
-
 }
 
 /* same line height with the other text at the left of the page */
@@ -277,29 +277,28 @@ iframe {
 
 /* Media queries 
 
- For larger to medium screens size from 859px width and down. The point that our 2 panel image reduces  to 2 
-@media screen and (max-width: 859px) {
-  .image-column {
-    padding: 0 2px;
-  }
+ For larger to medium screens size from 859px width and down. The point that our 2 panel image reduces  to 2 */
 
+@media screen and (max-width: 1050px) {
   .image-gallery {
-    width: 60%;
-    padding: 10px 0;
+    width: 80%;
+  }
+  .image {
+    width: 50%;
   }
 
   #yam-intro {
-    width: 40%;
-    padding: 10px;
+    width: 80%;
   }
 
-   reduce our sub title text to be in line with reduced screen 
+   /* reduce our sub title text to be in line with reduced screen  */
   h1,
   h2 {
     font-size: 100%;
   }
 }
-*/
+
+
  /* For larger to medium screens size from 764px width and down. The point that our navigation menu gets distorted. We
 shift the menu to the left. ALso change our image gallery to single column  */
 
@@ -318,6 +317,9 @@ shift the menu to the left. ALso change our image gallery to single column  */
   }
   .image {
     width: 90%;
+  }
+  .image-intro-line {
+    border-top: 2px solid #252525;
   }
 
 }
