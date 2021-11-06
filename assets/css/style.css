@@ -165,23 +165,15 @@ main {
   text-align: center;
 }
 
+/* Image gallery of yam festivals */
 .image-gallery {
   width: 80%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
-/* Image gallery of yam festivals */
-/* .image-gallery {
-   float: right; 
-  display: flex;
-  flex-wrap: wrap;
-  width: 70%;
-  box-sizing: border-box;
-  padding: 30px 0;
-} */
+
 .image {
-  /* float: right; */
   display: flex;
   /* flex-wrap: wrap; */
   width: 33%;
@@ -193,11 +185,6 @@ main {
   padding:  1rem;
 }
 
-/* .image-gallery>h2 {
-  width: 100%;
-  margin: 1rem 0 auto;
-  text-align: center;
-} */
 section > h2 {
   width: 100%;
   margin: 1rem 0 auto;
@@ -230,7 +217,7 @@ section > h2 {
 }
 
 /* Festivals SEction with videos */
-#festival-section {
+#festival-section, #igbo-section {
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -238,10 +225,8 @@ section > h2 {
 }
 
 
-.videoitem {
-  /* float: right; */
+.videoitem , .igbo-item {
   display: flex;
-  /* flex-wrap: wrap; */
   width: 48%;
   flex-direction: column;
   box-sizing: border-box;
@@ -288,25 +273,6 @@ footer {
   font-size: 150%;
 }
 
-/* Festival Celebrations */
-/* #celebration-details {
-  float: right;
-  width: 70%;
-  box-sizing: border-box;
-  padding: 30px 0;
-} */
-
-/* .videoitem {
-  width: 80%;
-  margin: 0 auto;
-} */
-
-/* video,
-iframe {
-  width: 80%;
-  margin: auto;
-  height: auto;
-} */
 
 /* Media queries 
 
@@ -318,6 +284,7 @@ iframe {
   }
   .image {
     width: 50%;
+    height:auto;
   }
 
   #yam-intro {
@@ -329,16 +296,18 @@ iframe {
   h2 {
     font-size: 100%;
   }
-  .videoitem {
+  /* force to a single column stacking */
+  .videoitem, .igbo-item {
     width: 80%;
+    height: auto;
   }
   iframe {
-    height: 10rem;
+    height: 15rem;
   }
 }
 
 
- /* For larger to medium screens size from 764px width and down. The point that our navigation menu gets distorted. We
+ /* For screens from 780px and below. The point that our navigation menu gets distorted. We
 shift the menu to the left. ALso change our image gallery to single column  */
 
 @media screen and (max-width: 780px) {
@@ -356,6 +325,7 @@ shift the menu to the left. ALso change our image gallery to single column  */
   }
   .image {
     width: 90%;
+    height: auto;
   }
   .image-intro-line {
     border-top: 2px solid #252525;
