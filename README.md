@@ -26,8 +26,12 @@ The Site is is presented in three sections:
 
 ### 4. Festivals Section
     
-    Thie Section has the Celebration Events in Video. The YouTube videos are are not on auto play and not muted which hands full control to the user. The two video clips uploaded in the site was set to autoplay and muted to enable a beautiful user interface to Iphone users, who otherwise would have only seen an blank section with a play arrow. 
-    ![History Section](/docs/festival_section.png)
+Thie Section has the Celebration Events in Video. The YouTube videos are are not on auto play and not muted which hands full control to the user. The two video clips uploaded in the site was set to autoplay and muted to enable a beautiful user interface to Iphone users, who otherwise would have only seen an blank section with a play arrow. 
+![Festival Section](/docs/festival_section.png)
+
+### 5. Igbo Tribe Section
+This section give a brief description of the Igbo tribe and a video that enlightens the user about the Igbo tribe of Nigeria.
+![Igbo Tribe Section](/docs/festival_section.png)
 
 
 
