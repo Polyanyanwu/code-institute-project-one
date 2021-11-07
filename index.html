@@ -180,7 +180,9 @@
 
       <div class="videoitem">
         <hr class="image-intro-line">
-        <video controls>
+        <!-- auto play was added after testing on iPhone. It enables a beautiful screen of the video 
+          to be visible but still wont play until the user clicks on it which is the desired outcome -->
+        <video controls autoplay mute>
           <source src="assets/videos/yam_festival1.mp4" type="video/mp4">
           <!-- <source src="assets/videos/yam_festival1.mov" type="video/mov"> -->
           <p>video on celebrating new yam festival: Your browser doesn't support HTML5 Video
@@ -191,17 +193,17 @@
           being the first to cut and eat the new yam. After that, members of the community could partake of the eating
           of
           yams for the harvest season.</p>
-        
-          <a href="https://www.youtube.com/watch?v=awBHeFO3228" target="_blank" rel="noopener"
-            aria-label="Watch the full video on youtube">You may watch the full video on YouTube
-            <i class="fab fa-youtube"></i> by clicking here. 
-          </a>
-       
+
+        <a href="https://www.youtube.com/watch?v=awBHeFO3228" target="_blank" rel="noopener"
+          aria-label="Watch the full video on youtube">You may watch the full video on YouTube
+          <i class="fab fa-youtube"></i> by clicking here.
+        </a>
+
       </div>
 
       <div class="videoitem">
         <hr class="image-intro-line">
-        <video  controls loop autoplay mute>
+        <video controls loop autoplay mute>
           <source src="assets/videos/yam_festival2.mp4" type="video/mp4">
           <p>Second video on celebrating new yam festival: Your browser doesn't support HTML5 video</p>
         </video>
