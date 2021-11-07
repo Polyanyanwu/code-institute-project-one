@@ -68,7 +68,7 @@ h2 {
 }
 
 .videoitem a {
-  color: #252525;
+  font-style: italic;
 }
 .videoitem a:hover{
   color: white;
@@ -180,7 +180,6 @@ main {
 
 .image {
   display: flex;
-  /* flex-wrap: wrap; */
   width: 33%;
   flex-direction: column;
   box-sizing: border-box;
@@ -261,7 +260,7 @@ footer {
   width: 100%;
   overflow: hidden;
   font-size: 1rem;
-  padding: 0.5% 1% 0.5 1%;
+  padding: 0.5% 1%;
   border-top: 2px solid #252525;
   margin-top: 15px;
 }
@@ -278,7 +277,7 @@ footer {
 }
 
 .contact-us span {
-  margin-top: 10px 0;
+  margin-top: 10px;
 }
 
 .contact-us span a {
