@@ -75,7 +75,16 @@ It would have been nice to have a feedback form to obtain the users comments and
 
 * ### Browser Compatibility 
 
-The website was tested with the major browsers available and found to work as expected: Chrome, Firefox, Safari, Microsoft Edge. It was while testing on Safari on the Iphone that I noticed that the .mp4 videos were not playing. To resolve this I had to specify the type="video/mp4", gave it an autoplay and mute attribute in order to have the video show a picture instead of being blank. However the mute attribute ensures the voice is not out until the user chooses to hear it. Apart from the iPhone, Android phones had no issues with playing the videos.
+    The website was tested with the major browsers available and found to work as expected: Chrome, Firefox, Safari, Microsoft Edge. It was while testing on Safari on the Iphone that I noticed that the .mp4 videos were not playing. To resolve this I had to specify the type="video/mp4", gave it an autoplay and mute attribute in order to have the video show a picture instead of being blank. However the mute attribute ensures the voice is not out until the user chooses to hear it. Apart from the iPhone, Android phones had no issues with playing the videos.
 
-* ### Assebility by Different Device Widths
+* ### Assebility with Different Device Widths
 
+    Using the Chrome Developmet tools, the respnsiveness of the site to various screen sizes was simulated. This led to the adjustment of the CSS until the site supports numerous device widths from the smallest hand held devices to full computer monitor screens.
+    ![Responsive Screens](/docs/various_screen_sizes.png)
+    The first image above shows a full screen of three image columns and two video columns dsiplayed on a laptop computer screen. The images below the laptop screen are simulations on the ipad (with two image columns) and small screen of Moto G4 and Iphone X displaying single column for both video and images.
+
+## Deployment
+* ## Credits
+* ### Design
+* ### Content
+* ### Media
