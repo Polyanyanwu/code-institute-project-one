@@ -75,5 +75,7 @@ It would have been nice to have a feedback form to obtain the users comments and
 
 * ### Browser Compatibility 
 
+The website was tested with the major browsers available and found to work as expected: Chrome, Firefox, Safari, Microsoft Edge. It was while testing on Safari on the Iphone that I noticed that the .mp4 videos were not playing. To resolve this I had to specify the type="video/mp4", gave it an autoplay and mute attribute in order to have the video show a picture instead of being blank. However the mute attribute ensures the voice is not out until the user chooses to hear it. Apart from the iPhone, Android phones had no issues with playing the videos.
+
 * ### Assebility by Different Device Widths
 

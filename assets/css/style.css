@@ -204,22 +204,9 @@ section > h2 {
   text-align: center;
 }
 
-/* display 2 columns of images each with 48% width with some 6px spaceing */
-/* .image-column {
-  flex: 48%;
-  max-width: 48%;
-  padding: 0 6px;
-}
-
-.image-column img {
-  margin-top: 1rem;
-  vertical-align: middle;
-  width: 100%;
-} */
 
 .image-intro-line {
   width: 20%;
-  /* border-top: 2px solid #252525; */
   margin:  0 auto;
   padding-bottom: 1rem;
 }
@@ -254,7 +241,8 @@ iframe {
   width: auto;
   height: 20rem;
 }
-/* footer */
+
+/* footer section */
 footer {
   text-align: center;
   width: 100%;
@@ -273,7 +261,7 @@ footer {
 }
 
 .footer-menu {
-  margin: 10px 0 10px 0;
+  margin: 10px 0;
 }
 
 .contact-us span {
@@ -350,6 +338,25 @@ shift the menu to the left. ALso change our image gallery to single column  */
   }
   .image-intro-line {
     border-top: 2px solid #252525;
+  }
+
+}
+
+ /* For screens from 50px and below. The point that our navigation menu gets distorted. We
+shift the menu to the left. ALso change our image gallery to single column  */
+
+@media screen and (max-width: 500px) {
+  /* the row of social media links get distorted, need to reduce the spacing */
+  .contact-us span a {
+    margin: 0 5px;
+    font-size: 100%;
+  }
+  #menu-bar {
+    margin-left: 1rem;
+  }
+  #title {
+    font-size: 120%;
+    margin-left: 1rem;
   }
 
 }
