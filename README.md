@@ -22,9 +22,8 @@ The navigation bar has the main title of the site and has responsive navigation 
 
 ### 2. The landing page image
 
-    The landing includes an image of a yam cutting action of a yam festival with text overlay to allow the user to have a feel of what the site would be presenting. An eye catchih animation grabs the users attention as the site is opening.
+The landing includes an image of a yam cutting action of a yam festival with text overlay to allow the user to have a feel of what the site would be presenting. An eye catchih animation grabs the users attention as the site is opening.
 ![Landing Page Image](/docs/landing_page_image.png)
-
 
 ### 3. The History of Yam Festivals
 
@@ -64,7 +63,15 @@ It would have been nice to have a feedback form to obtain the users comments and
 
 * ### Validity of the CSS
 
-* ### Performance Testing
+    The CSS text was validated using [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator). It was realised that the CSS had two errors which were identified and fixed as shown below: The first error 0.5% 1% 0.5 1% for padding was resolved by using the shorthand 0.5% 1% and the second error was resolved by deleting the 0.
+
+    ![CSS Validation Result](/docs/css_validation.png)
+
+* ### Accessibility & Performance Testing
+
+    Performace test was carried out using Lighthouse tool provided by the Chrome Development tool. Initial performance result pointed to deficiencies in the size and type of images on the site - most were .jpg and .png. The images were converted to .webp using  [cloud convert](https://cloudconvert.com/) and then  [tiny png](https://tinypng.com/) to compress the images further. Issue of caching of static images was also reported. Cache Control was added to the header with properties content="max-age=31536000" and content="public". After these changes to the images and caching, the Lighthouse produced the result below:
+    ![Performance Result](/docs/performance_test.png)
+
 
 * ### Browser Compatibility 
 
