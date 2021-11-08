@@ -1,21 +1,20 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@300&display=swap'); */
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto:wght@300&family=Ubuntu&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu&display=swap");
+
+/* ensure no margins, border and paddings are added to elements */
 * {
   margin: 0;
   padding: 0;
   border: none;
 }
-
+/* default font and color for the entire page */
 body {
   font-family: Lato, sans-serif;
-  /* font-family: 'Roboto', sans-serif; */
-  /* font-family: 'Roboto Condensed', sans-serif; */
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   color: #4c4c4c;
 }
-
+/* header fixed */
 header {
   position: fixed;
   top: 0;
@@ -29,7 +28,6 @@ header {
 h1,
 h2 {
   font-family: "Roboto", sans-serif;
-  /* font-family: 'Ubuntu', sans-serif; */
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #252525;
@@ -62,6 +60,7 @@ h2 {
   border-bottom: 1px solid #252525;
 }
 
+/* remove decoration from anchor elements on the site */
 #menu-bar a, .videoitem a {
   text-decoration: none;
   color: #252525;
@@ -75,13 +74,14 @@ h2 {
   background-color:  #252525;
 }
 
+/* the main contains all the sections and is set to flex */
 main {
   display: flex;
   flex-direction: column;
 }
-/* Underline the current page link on the menu bar */
+
+/* Underline the current page link on the menu bar, not so relevant now as we are using a single page for all features of the site */
 .selected {
-  /* text-decoration: underline solid; */
   border-bottom: 1px solid #252525;
   padding-bottom: 2px;
 }
@@ -117,7 +117,6 @@ main {
 
 /* Add brief description of the banner on banner text */
 #banner-text {
-
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -157,7 +156,6 @@ main {
 /* Format of the text on the paragraphs */
 .text-div p {
   padding-top: 10px;
-  /* text-align: justify; */
   line-height: 25px;
 }
 
@@ -177,7 +175,7 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
-
+/* image gallery will display 3 columns for wide screens hence 33% width */
 .image {
   display: flex;
   width: 33%;
@@ -193,17 +191,11 @@ main {
   height: auto;
 }
 
-.videoitem > video {
-  width: 100%;
-  height: auto;
-}
-
 section > h2 {
   width: 100%;
   margin: 1rem 0 auto;
   text-align: center;
 }
-
 
 .image-intro-line {
   width: 20%;
@@ -216,14 +208,13 @@ section > h2 {
   line-height: 25px;
 }
 
-/* Festivals SEction with videos */
+/* Festivals  and Igbo tribe section with videos */
 #festival-section, #igbo-section {
   width: 80%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
-
 
 .videoitem , .igbo-item {
   display: flex;
@@ -236,6 +227,10 @@ section > h2 {
   padding:  1rem;
 }
 
+.videoitem > video {
+  width: 100%;
+  height: auto;
+}
 
 iframe {
   width: auto;
@@ -277,7 +272,7 @@ footer {
 
 /* Media queries 
 
- For larger to medium screens size from 859px width and down. The point that our 2 panel image reduces  to 2 */
+ For larger to medium screens size from 859px width and down. The point that our 3 column image reduces  to 2 */
 
 @media screen and (max-width: 1050px) {
   #title {
@@ -287,13 +282,10 @@ footer {
   .image-gallery {
     width: 80%;
   }
+  /* reduce our image gallery to 2 by increasing the width to 50% */
   .image {
     width: 50%;
     height:auto;
-  }
-  .image > img {
-    width: 100%;
-    height: auto;
   }
 
   #yam-intro {
@@ -305,7 +297,7 @@ footer {
   h2 {
     font-size: 100%;
   }
-  /* force to a single column stacking */
+  /* force to a single column stacking of video*/
   .videoitem, .igbo-item {
     width: 100%;
     height: auto;
@@ -342,8 +334,8 @@ shift the menu to the left. ALso change our image gallery to single column  */
 
 }
 
- /* For screens from 50px and below. The point that our navigation menu gets distorted. We
-shift the menu to the left. ALso change our image gallery to single column  */
+ /* For screens from 500px and below, the row of social media links get distorted, 
+ need to reduce the spacing; also reduce the font size of the title, reduce space to the left and align with the menu*/
 
 @media screen and (max-width: 500px) {
   /* the row of social media links get distorted, need to reduce the spacing */
@@ -352,11 +344,11 @@ shift the menu to the left. ALso change our image gallery to single column  */
     font-size: 100%;
   }
   #menu-bar {
-    margin-left: 1rem;
+    margin-left: 0.4rem;
   }
   #title {
     font-size: 120%;
-    margin-left: 1rem;
+    margin-left: 0.4rem;
   }
 
 }
