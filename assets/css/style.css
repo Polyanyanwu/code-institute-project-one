@@ -119,7 +119,7 @@ main {
   }
 }
 
-/* Add brief description of the banner on banner text */
+/* Add brief description of the banner on banner text. Idea borrowed from Love Running Site */
 #banner-text {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
@@ -159,25 +159,23 @@ main {
 }
 
 /* Format of the text on the paragraphs */
-.text-div p {
+.history-div p {
   padding-top: 10px;
   line-height: 2rem;
 }
 
 /* some breathing space between the text and the image gallery */
-.text-div {
-  /* padding-top: 10px; */
+.history-div {
   text-align: justify;
   display: flex;
   flex-direction: column;
   width: 45%;
   padding: 1rem;
-  /* flex-wrap: wrap; */
 }
-.text-div img {
+.history-div img {
   width: 100%;
 }
-.text-div>h2{
+.history-div>h2{
   text-align: center;
 }
 
@@ -326,20 +324,10 @@ footer {
     font-size: 160%;
     line-height: 3rem;
   }
-  .image-gallery {
-    width: 80%;
-  }
-  /* reduce our image gallery to 2 by increasing the width to 50% */
-  .image {
-    width: 50%;
-    height:auto;
-  }
-
-  #yam-intro {
-    width: 80%;
-    /* display: flex;
-    flex-wrap: wrap; */
-  }
+/* single colum stak */
+  .history-div {
+    width: 100%;
+  } 
 
    /* reduce our sub title text to be in line with reduced screen  */
   h1,
@@ -368,7 +356,6 @@ shift the menu to the left. ALso change our image gallery to single column  */
   }
 
   .image-gallery {
-    width: 80%;
     margin: 0 auto;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -394,6 +381,7 @@ shift the menu to the left. ALso change our image gallery to single column  */
   }
   #menu-bar {
     margin-left: 0.4rem;
+    font-size: 90%;
   }
   #title {
     font-size: 120%;
