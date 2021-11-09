@@ -1,5 +1,3 @@
-
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu&display=swap"); */
 @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&family=Roboto+Condensed:wght@300&family=Roboto:wght@300&family=Ubuntu&display=swap');
 
 /* ensure no margins, border and paddings are added to elements */
@@ -8,6 +6,7 @@
   padding: 0;
   border: none;
 }
+
 /* default font and color for the entire page */
 body {
   font-family: Lato, sans-serif;
@@ -15,6 +14,7 @@ body {
   font-weight: 300;
   color: #4c4c4c;
 }
+
 /* header fixed */
 header {
   position: fixed;
@@ -29,7 +29,6 @@ header {
 h1,
 h2 {
   font-family: 'Gluten', cursive;
-  /* font-family: "Roboto", sans-serif; */
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #252525;
@@ -65,7 +64,8 @@ h2 {
 }
 
 /* remove decoration from anchor elements on the site */
-#menu-bar a, .videoitem a {
+#menu-bar a,
+.videoitem a {
   text-decoration: none;
   color: #252525;
 }
@@ -73,9 +73,10 @@ h2 {
 .videoitem a {
   font-style: italic;
 }
-.videoitem a:hover{
+
+.videoitem a:hover {
   color: white;
-  background-color:  #252525;
+  background-color: #252525;
 }
 
 /* the main contains all the sections and is set to flex */
@@ -95,7 +96,6 @@ main {
   height: 70vh;
   width: 100%;
   position: relative;
-  /* clear: both; */
   overflow: hidden;
 }
 
@@ -147,6 +147,7 @@ main {
   width: 100%;
   margin: 3px 0;
 }
+
 /* Section for the history text of yams */
 #yam-intro {
   width: 90%;
@@ -172,10 +173,12 @@ main {
   width: 45%;
   padding: 1rem;
 }
+
 .history-div img {
   width: 100%;
 }
-.history-div>h2{
+
+.history-div>h2 {
   text-align: center;
 }
 
@@ -186,55 +189,34 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
+
 /* image gallery will display 3 columns for wide screens hence 33% width */
 .image {
   display: flex;
   width: 100%;
   flex-direction: column;
   box-sizing: border-box;
-  /* padding-top: 1rem; */
   line-height: 2rem;
   margin: 0 auto;
   text-align: justify;
-  padding:  1rem;
+  padding: 1rem;
 }
 
 .caption {
   text-align: justify;
   width: 100%;
   height: auto;
-  /* padding: 0 10px; */
-  /* margin: 0 10px; */
   line-height: 2rem;
-  /* background-color:  rgba(121, 15, 54, 0.7); */
-  /* background-color: rgba(52, 42, 192, 0.7); */
-  /* bottom: 10%; */
-  /* left: -10%; */
   position: relative;
-  /* border-radius: 10%; */
-  color:  #252525;
-
+  color: #252525;
 }
 
-/*#gallery-1{
-  background-color: rgb(234, 204, 215);
-}
-
-#gallery-2{
-  background-color: #CCEADF;
-}
-#gallery-3{
-  background-color: #E6F9DD;
-} 
- #gallery-4{
-  background-color:#F1DDF9;
-} */
-.image > figure> img {
+.image>figure>img {
   width: 100%;
   height: auto;
 }
 
-section > h2 {
+section>h2 {
   width: 100%;
   margin: 1rem 0 auto;
   text-align: center;
@@ -242,7 +224,7 @@ section > h2 {
 
 .image-intro-line {
   width: 20%;
-  margin:  0 auto;
+  margin: 0 auto;
   padding-bottom: 1rem;
   /* border-top: 2px solid #252525; */
 }
@@ -253,14 +235,16 @@ section > h2 {
 }
 
 /* Festivals  and Igbo tribe section with videos */
-#festival-section, #igbo-section {
+#festival-section,
+#igbo-section {
   width: 80%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
 
-.videoitem , .igbo-item {
+.videoitem,
+.igbo-item {
   display: flex;
   width: 48%;
   flex-direction: column;
@@ -268,11 +252,11 @@ section > h2 {
   padding-top: 1rem;
   margin: 0 auto;
   text-align: justify;
-  padding:  1rem;
+  padding: 1rem;
   line-height: 2rem;
 }
 
-.videoitem > video {
+.videoitem>video {
   width: 100%;
   height: auto;
 }
@@ -280,6 +264,11 @@ section > h2 {
 iframe {
   width: auto;
   height: 20rem;
+}
+
+.videoitem p,
+.igbo-item p {
+  padding-top: 1rem;
 }
 
 /* footer section */
@@ -317,35 +306,39 @@ footer {
 
 /* Media queries 
 
- For larger to medium screens size from 859px width and down. The point that our 3 column image reduces  to 2 */
+ For larger to medium screens size from 1050px width and down. The point that our 2 column image reduces  to 1 */
 
 @media screen and (max-width: 1050px) {
   #title {
     font-size: 160%;
     line-height: 3rem;
   }
-/* single colum stak */
+
+  /* single colum stak */
   .history-div {
     width: 100%;
-  } 
+  }
 
-   /* reduce our sub title text to be in line with reduced screen  */
+  /* reduce our sub title text to be in line with reduced screen  */
   h1,
   h2 {
     font-size: 100%;
   }
+
   /* force to a single column stacking of video*/
-  .videoitem, .igbo-item {
+  .videoitem,
+  .igbo-item {
     width: 100%;
     height: auto;
   }
+
   iframe {
     height: 15rem;
   }
 }
 
 
- /* For screens from 780px and below. The point that our navigation menu gets distorted. We
+/* For screens from 780px and below. The point that our navigation menu gets distorted. We
 shift the menu to the left. ALso change our image gallery to single column  */
 
 @media screen and (max-width: 780px) {
@@ -360,29 +353,34 @@ shift the menu to the left. ALso change our image gallery to single column  */
     flex-wrap: nowrap;
     flex-direction: column;
   }
+
   .image {
     width: 100%;
     height: auto;
   }
+/* introduce the divider small lines for each image div */
   .image-intro-line {
     border-top: 2px solid #252525;
   }
 
 }
 
- /* For screens from 500px and below, the row of social media links get distorted, 
+/* For screens from 500px and below, the row of social media links get distorted, 
  need to reduce the spacing; also reduce the font size of the title, reduce space to the left and align with the menu*/
 
 @media screen and (max-width: 500px) {
+
   /* the row of social media links get distorted, need to reduce the spacing */
   .contact-us span a {
     margin: 0 5px;
     font-size: 100%;
   }
+
   #menu-bar {
     margin-left: 0.4rem;
     font-size: 90%;
   }
+
   #title {
     font-size: 120%;
     margin-left: 0.4rem;
