@@ -138,31 +138,40 @@ main {
   margin: 0 auto;
 }
 
-/* Section for the history text of yams */
-#yam-intro {
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 1rem;
-  text-align: center;
-  box-sizing: border-box;
-}
-
 .full-line {
   border-top: 1px solid #252525;
   width: 100%;
   margin: 3px 0;
 }
+/* Section for the history text of yams */
+#yam-intro {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /* Format of the text on the paragraphs */
 .text-div p {
   padding-top: 10px;
-  line-height: 25px;
+  line-height: 30px;
 }
 
 /* some breathing space between the text and the image gallery */
 .text-div {
-  padding-top: 10px;
+  /* padding-top: 10px; */
   text-align: justify;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  padding: 1rem;
+  /* flex-wrap: wrap; */
+}
+.text-div img {
+  width: 100%;
 }
 .text-div>h2{
   text-align: center;
@@ -178,10 +187,10 @@ main {
 /* image gallery will display 3 columns for wide screens hence 33% width */
 .image {
   display: flex;
-  width: 80%;
+  width: 100%;
   flex-direction: column;
   box-sizing: border-box;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   margin: 0 auto;
   text-align: justify;
   padding:  1rem;
@@ -189,32 +198,35 @@ main {
 
 .caption {
   text-align: justify;
-  width: 50%;
+  width: 100%;
   height: auto;
-  padding: 10px;
-  line-height: 25px;
+  /* padding: 0 10px; */
+  /* margin: 0 10px; */
+  line-height: 30px;
   /* background-color:  rgba(121, 15, 54, 0.7); */
-  background-color: rgba(52, 42, 192, 0.7);
-  bottom: 10%;
-  left: -2rem;
+  /* background-color: rgba(52, 42, 192, 0.7); */
+  /* bottom: 10%; */
+  /* left: -10%; */
   position: relative;
-  border-radius: 10%;
-  color: white;
+  /* border-radius: 10%; */
+  color:  #252525;
+
 }
 
-/* #gallery-1{
+/*#gallery-1{
   background-color: rgb(234, 204, 215);
 }
+
 #gallery-2{
   background-color: #CCEADF;
 }
 #gallery-3{
   background-color: #E6F9DD;
-} */
-/* #gallery-4{
+} 
+ #gallery-4{
   background-color:#F1DDF9;
 } */
-.image > img {
+.image > figure> img {
   width: 100%;
   height: auto;
 }
@@ -229,11 +241,12 @@ section > h2 {
   width: 20%;
   margin:  0 auto;
   padding-bottom: 1rem;
+  /* border-top: 2px solid #252525; */
 }
 
 /* same line height with the other text at the left of the page */
 .image-column p {
-  line-height: 25px;
+  line-height: 30px;
 }
 
 /* Festivals  and Igbo tribe section with videos */
@@ -251,7 +264,7 @@ section > h2 {
   box-sizing: border-box;
   padding-top: 1rem;
   margin: 0 auto;
-  text-align: center;
+  text-align: justify;
   padding:  1rem;
 }
 
@@ -318,6 +331,8 @@ footer {
 
   #yam-intro {
     width: 80%;
+    /* display: flex;
+    flex-wrap: wrap; */
   }
 
    /* reduce our sub title text to be in line with reduced screen  */
