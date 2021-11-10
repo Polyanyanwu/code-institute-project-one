@@ -9,9 +9,8 @@
 
 /* default font and color for the entire page */
 body {
-  font-family: Lato, sans-serif;
   font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: #4c4c4c;
 }
 
@@ -149,7 +148,7 @@ main {
 }
 
 /* Section for the history text of yams */
-#yam-intro {
+#history-section {
   width: 90%;
   margin: 0 auto;
   padding-top: 1rem;
@@ -190,10 +189,11 @@ main {
   flex-wrap: wrap;
 }
 
-/* image gallery will display 3 columns for wide screens hence 33% width */
+/* image gallery will display 1 per column*/
 .image {
   display: flex;
   width: 100%;
+  height: auto;
   flex-direction: column;
   box-sizing: border-box;
   line-height: 2rem;
@@ -226,7 +226,6 @@ section>h2 {
   width: 20%;
   margin: 0 auto;
   padding-bottom: 1rem;
-  /* border-top: 2px solid #252525; */
 }
 
 /* same line height with the other text at the left of the page */
@@ -246,6 +245,7 @@ section>h2 {
 .videoitem,
 .igbo-item {
   display: flex;
+  /* ensures 2 column display for large screens */
   width: 48%;
   flex-direction: column;
   box-sizing: border-box;
@@ -355,10 +355,6 @@ shift the menu to the left. ALso change our image gallery to single column  */
     flex-direction: column;
   }
 
-  .image {
-    width: 100%;
-    height: auto;
-  }
 /* introduce the divider small lines for each image div */
   .image-intro-line {
     border-top: 2px solid #252525;
