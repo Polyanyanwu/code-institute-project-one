@@ -311,6 +311,8 @@ footer {
 
 .footer-menu {
   margin: 10px 0;
+  font-family: 'Gluten', cursive;
+  font-weight: bold;
 }
 
 .contact-us span {
