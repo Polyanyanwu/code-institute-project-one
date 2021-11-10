@@ -12,12 +12,15 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #4c4c4c;
+  /* background-color: #E5F7F4; */
+
+  background-color: #E4CED9;
 }
 
 /* header fixed */
 header {
   position: fixed;
-  top: 2px;
+  top: 0;
   z-index: 9999;
   overflow: hidden;
   background-color: white;
@@ -158,6 +161,16 @@ main {
   flex-wrap: wrap;
 }
 
+#history-text-2{
+  background-color: #E5621A;
+}
+
+#history-text-1{
+  /* background-color:  */
+  background-image: linear-gradient( rgba(26, 157, 229, 0.7),   rgba(24, 133, 192, 0.7));
+  
+}
+
 /* Format of the text on the paragraphs */
 .history-div p {
   padding-top: 10px;
@@ -166,11 +179,17 @@ main {
 
 /* some breathing space between the text and the image gallery */
 .history-div {
-  text-align: justify;
+  text-align: start;
   display: flex;
   flex-direction: column;
   width: 45%;
   padding: 1rem;
+
+}
+.history-div-text {
+  /* background-color: #F7E5E8; */
+  background-color: #CEE4D9;
+  /* background-color: #E4CED9; */
 }
 
 .history-div img {
@@ -203,7 +222,7 @@ main {
 }
 
 .caption {
-  text-align: justify;
+  text-align: left;
   width: 100%;
   height: auto;
   line-height: 2rem;
@@ -269,6 +288,7 @@ iframe {
 .videoitem p,
 .igbo-item p {
   padding-top: 1rem;
+  text-align: start;
 }
 
 /* footer section */
@@ -312,7 +332,7 @@ footer {
 @media screen and (max-width: 1050px) {
   #title {
     font-size: 160%;
-    line-height: 3rem;
+    line-height: 4rem;
   }
 
   /* single colum stak */
