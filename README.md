@@ -24,7 +24,7 @@ The navigation bar has the main title of the site and has responsive navigation 
 ### 2. The landing page image
 
 The landing includes an image of a yam cutting action of a yam festival with text overlay to allow the user to have a feel of what the site would be presenting. An eye-catching animation grabs the user’s attention as the site is opening.
-![Landing Page Image](/docs/landing_page_image.png)
+![Landing Page Image](/docs/landing_page.png)
 
 ### 3. The History of Yam Festivals
 
@@ -36,11 +36,11 @@ The section also has a photo Gallery of Yam and textual descriptions, which is r
 ### 4. Festivals Section
     
 Thie Section has the Celebration Events in Video. The YouTube videos are are not on auto play and not muted which hands full control to the user. The two video clips uploaded in the site was set to autoplay and muted to enable a beautiful user interface to Iphone users, who otherwise would have only seen an blank section with a play arrow. 
-![Festival Section](/docs/festival_section.png)
+![Festival Section](/docs/festival_section.jpg)
 
 ### 5. Igbo Tribe Section
 This section give a brief description of the Igbo tribe and a video that enlightens the user about the Igbo tribe of Nigeria.
-![Igbo Tribe Section](/docs/festival_section.png)
+![Igbo Tribe Section](/docs/igbo_section.jpg)
 
 ### 6. The Footer Section
 The footer has the links to take the user back to any of the three main sections of the site. In addition, the Contact us part of the footer has the icons that links the user to the social network of the site designer.
@@ -78,7 +78,7 @@ It would have been nice to have a feedback form to obtain the users comments and
 
     The website was tested with the major browsers available and found to work as expected: Chrome, Firefox, Safari, and Microsoft Edge. It was while testing on Safari on the Iphone that I noticed that the .mp4 videos were not playing. To resolve this I had to specify the type="video/mp4", gave it an autoplay and mute attribute in order to have the video show a picture instead of being blank. However, the mute attribute ensures the voice is not out until the user chooses to hear it. Apart from the iPhone, Android phones had no issues with playing the videos.
 
-* ### Assebility with Different Device Widths
+* ### Accessibility with Different Device Widths
 
     Using the Chrome Development tools, the responsiveness of the site to various screen sizes was simulated. This led to the adjustment of the CSS until the site supports numerous device widths from the smallest hand held devices to full computer monitor screens.
     ![Responsive Screens](/docs/various_screen_sizes.png)
