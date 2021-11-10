@@ -94,15 +94,15 @@ The site was deployed to GitHub pages. The following steps were used to effect t
 
 ## Credits
 ### i. Design
-    Inspiration on the banner and cover text was drawn from the Love Running Essentials project. Criticism and guidance from my Mentor (Brian O'Hare) and class coordinator (Simen Daehlin) assisted immensely in my continual adjustment of the design until it got to this likeable and informative state.
-    The lectures from the Learning Management System of the Code Institute was the origin most of the knowledge on HTML5 and CSS which were used in this project.
+Inspiration on the banner and cover text was drawn from the Love Running Essentials project. Criticism and guidance from my Mentor (Brian O'Hare) and class coordinator (Simen Daehlin) assisted immensely in my continual adjustment of the design until it got to this likeable and informative state.
+The lectures from the Learning Management System of the Code Institute was the origin most of the knowledge on HTML5 and CSS which were used in this project.
 
 ### ii. Content
-    Text content on the mythology of the yam festival was taken from [Juju Medium](https://medium.com/@emailthisjuju/iwa-ji-new-yam-festival-a7b204fc3bf6). Information on The Yam Crop Growing on Sticks was obtained from [Ogidi Olu Farms](https://www.ogidiolufarms.com/tag/modified-trellis-method/). 
+Text content on the mythology of the yam festival was taken from [Juju Medium](https://medium.com/@emailthisjuju/iwa-ji-new-yam-festival-a7b204fc3bf6). Information on The Yam Crop Growing on Sticks was obtained from [Ogidi Olu Farms](https://www.ogidiolufarms.com/tag/modified-trellis-method/). 
     
-    The icons in the footer were copied from the Font Awesome.
+The icons in the footer were copied from the Font Awesome.
 ### iii. Media
-    The beautiful pictures of celebrations were downloaded from the following sources, converted, compresssed and used on this site:
+The beautiful pictures of celebrations were downloaded from the following sources, converted, compresssed and used on this site:
 *   [IITA}](https://www.iita.org/test-yam/) 
 * [Peoples Gazette](https://gazettengr.com/igbos-in-ghana-to-celebrate-new-yam-festival/) 
 * [Wikipedia](https://en.wikipedia.org/wiki/New_Yam_Festival_of_the_Igbo#/media/File:NewYam-IgboFestival-Dublin.jpg)

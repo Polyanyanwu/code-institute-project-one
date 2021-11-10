@@ -24,7 +24,7 @@
     <nav id="menu-bar">
       <ul>
         <li>
-          <a href="#banner-section" class="selected">Home</a>
+          <a href="#banner-section">Home</a>
         </li>
         <li>
           <a href="#image-gallery">Festivals</a>
@@ -246,7 +246,9 @@
       <hr class="full-line">
       <div class="videoitem">
         <hr class="image-intro-line">
-        <video controls autoplay mute>
+          <!-- auto play was added after testing on iPhone. It enables a beautiful screen of the video 
+          to be visible but still wont play until the user clicks on it which is the desired outcome -->
+        <video controls autoplay muted>
           <source src="assets/videos/yam_festival1.mp4" type="video/mp4">
           <p>video on celebrating new yam festival: Your browser doesn't support HTML5 Video
           </p>
@@ -262,7 +264,7 @@
       </div>
       <div class="videoitem">
         <hr class="image-intro-line">
-        <video controls loop autoplay mute>
+        <video controls loop autoplay muted>
           <source src="assets/videos/yam_festival2.mp4" type="video/mp4">
           <p>Second video on celebrating new yam festival: Your browser doesn't support HTML5 video</p>
         </video>
@@ -312,13 +314,14 @@
   <!-- The footer has links back to the home section and the other two sections plus social media contacts -->
   <footer>
     <div class="footer-menu">
-      <span><a href="#banner-section" class="selected">Home</a></span>
-      <span class="footer-link">
-        <a href="#igbo-section">Igbo Tribe</a>
-      </span>
+      <span><a href="#banner-section">Home</a></span>
       <span class="footer-link">
         <a href="#image-gallery">Festivals</a>
       </span>
+      <span class="footer-link">
+        <a href="#igbo-section">Igbo Tribe</a>
+      </span>
+
     </div>
     <div class="contact-us">
       <span>
