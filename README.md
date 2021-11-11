@@ -13,6 +13,10 @@ I intended to have a three-page website having pages for the history, the festiv
 After the initial discussion with my mentor, the design was changed to having a navigation bar, banner image and banner text. It became apparent that the Search functionality was out of scope as that would require JavaScript, therefore it was removed from the design. I produced a revised wireframe below:
 ![Design Wireframe Version 2](/docs/Yam_Festival_Main_V2.png)
 
+In the course of implementing the revised Wireframe, the design had to be modified again to satisfy the need for ease of accessibility and appeal to the site visitor. The final wireframe used in the design is given below:
+
+ ![Design Wireframe Version 3](/docs/yam-festival_v3.png)
+
 The main page was then produced according to the revised wireframe with two columns after the banner image. While reviewing the page, it seemed too crowded with information and not appealing to a user. I then decided to drop the idea of two columns and rather used flex technology to present the image gallery and information into necessary column depending on the device width of the user. 
 
 ## Features of the Site
