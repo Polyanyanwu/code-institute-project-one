@@ -44,6 +44,7 @@ This section give a brief description of the Igbo tribe and a video that enlight
 
 ### 6. The Footer Section
 The footer has the links to take the user back to any of the three main sections of the site. In addition, the Contact us part of the footer has the icons that links the user to the social network of the site designer.
+
 ![Igbo Tribe Section](/docs/footer_section.png)
 
 ### Features Left to Implement
