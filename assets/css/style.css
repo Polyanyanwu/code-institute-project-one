@@ -12,9 +12,7 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   color: #4c4c4c;
-  /* background-color: #E5F7F4; */
-
-  background-color: #E4CED9;
+   background-color: #E4CED9;
 }
 
 /* header fixed */
@@ -65,7 +63,7 @@ h2 {
   border-bottom: 1px solid #252525;
 }
 
-/* remove decoration from anchor elements on the site */
+/* remove decoration from anchor elements attached to menu-bar a=nd video items on the site */
 #menu-bar a,
 .videoitem a {
   text-decoration: none;
@@ -85,12 +83,6 @@ h2 {
 main {
   display: flex;
   flex-direction: column;
-}
-
-/* Underline the current page link on the menu bar, not so relevant now as we are using a single page for all features of the site */
-.selected {
-  border-bottom: 1px solid #252525;
-  padding-bottom: 2px;
 }
 
 /* Banner image */
@@ -139,6 +131,20 @@ main {
   margin: 0 auto;
 }
 
+/* Reference where the banner image was obtained from */
+#banner-ref {
+  position: relative;
+  bottom: 8rem;
+  background-color: white;
+  width: 10%;
+  border-radius: 10%;
+}
+#banner-ref a {
+  color: #252525;
+  text-decoration: none;
+  font-size: 90%;
+}
+
 #banner-text>h2 {
   color: #ffffff;
   font-size: 120%;
@@ -167,9 +173,7 @@ main {
 }
 
 #history-text-1{
-  /* background-color:  */
   background-image: linear-gradient( rgba(26, 157, 229, 0.7),   rgba(24, 133, 192, 0.7));
-  
 }
 
 /* Format of the text on the paragraphs */
@@ -223,11 +227,16 @@ main {
 
 .caption {
   text-align: left;
-  width: 100%;
+  width: 98%;
   height: auto;
   line-height: 2rem;
   position: relative;
   color: #252525;
+  background-color: #fff;
+  padding: 0 1%;
+}
+em {
+  font-size: 80%;
 }
 
 .image>figure>img {
@@ -298,7 +307,6 @@ footer {
   overflow: hidden;
   font-size: 1rem;
   padding: 0.5% 1%;
-  /* border-top: 2px solid #252525; */
   margin-top: 15px;
   background-color: white;
 }
@@ -331,7 +339,6 @@ footer {
 /* Media queries 
 
  For larger to medium screens size from 1050px width and down. The point that our 2 column image reduces  to 1 */
-
 @media screen and (max-width: 1050px) {
   #title {
     font-size: 160%;

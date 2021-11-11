@@ -10,7 +10,7 @@ This site hopes to enlighten the public, especially people from outside Nigeria,
 I intended to have a three-page website having pages for the history, the festivals and Igbo tribe. We intended to have a logo, title and navigation bar as shown below.
 ![Design Wireframe Version 1](/docs/Yam_Festival_Main.png)
 
-After the initial discussion with my mentor, the design was changed to having a navigation bar, banner image and banner text. I produced a revised wireframe below:
+After the initial discussion with my mentor, the design was changed to having a navigation bar, banner image and banner text. It became apparent that the Search functionality was out of scope as that would require JavaScript, therefore it was removed from the design. I produced a revised wireframe below:
 ![Design Wireframe Version 2](/docs/Yam_Festival_Main_V2.png)
 
 The main page was then produced according to the revised wireframe with two columns after the banner image. While reviewing the page, it seemed too crowded with information and not appealing to a user. I then decided to drop the idea of two columns and rather used flex technology to present the image gallery and information into necessary column depending on the device width of the user. 
@@ -104,7 +104,7 @@ Text content on the mythology of the yam festival was taken from [Juju Medium](h
 The icons in the footer were copied from the Font Awesome.
 ### iii. Media
 The beautiful pictures of celebrations were downloaded from the following sources, converted, compresssed and used on this site:
-*   [IITA}](https://www.iita.org/test-yam/) 
+*   [IITA](https://www.iita.org/test-yam/) 
 * [Peoples Gazette](https://gazettengr.com/igbos-in-ghana-to-celebrate-new-yam-festival/) 
 * [Wikipedia](https://en.wikipedia.org/wiki/New_Yam_Festival_of_the_Igbo#/media/File:NewYam-IgboFestival-Dublin.jpg)
 * [Umuzu Mainland Develoment Association](https://umdaokija.org/festivals/) 
@@ -112,6 +112,6 @@ The beautiful pictures of celebrations were downloaded from the following source
 * [Moving across cultures](https://clairekavculturestudiescom.wordpress.com/2020/01/15/nigerias-new-yam-festival/)
 * [Juju Medium](https://medium.com/@emailthisjuju/iwa-ji-new-yam-festival-a7b204fc3bf6)
 
-    The clip that plays on the first video on the Yam Celebrations were curated from [Channels Television](https://www.youtube.com/watch?v=awBHeFO3228) on YouTube. The video on Enugu People celebrating New Yam Festivals was embedded from their YouTube [Enugu Celebration](https://youtu.be/ZrPPYXIdAZg);
+    The clip that plays on the first video on the Yam Celebrations were curated from [Channels Television](https://www.youtube.com/watch?v=awBHeFO3228) on YouTube. The video on Enugu People celebrating New Yam Festivals was embedded from their YouTube [Enugu Celebration](https://youtu.be/ZrPPYXIdAZg).
 
     Thanks to God and my family for their support and understanding while I stayed hours on the Laptop.
