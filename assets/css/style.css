@@ -389,7 +389,10 @@ shift the menu to the left. ALso change our image gallery to single column  */
   .image-intro-line {
     border-top: 2px solid #252525;
   }
-
+  
+  .footer-menu {
+    font-size: 90%;
+  }
 }
 
 /* For screens from 500px and below, the row of social media links get distorted, 
