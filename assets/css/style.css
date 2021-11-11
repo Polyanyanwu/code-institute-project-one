@@ -99,6 +99,7 @@ main {
   width: 100%;
   position: relative;
   overflow: hidden;
+  top: 3.7rem;
 }
 
 #banner-image {
@@ -154,7 +155,7 @@ main {
 #history-section {
   width: 90%;
   margin: 0 auto;
-  padding-top: 1rem;
+  padding-top: 4.2rem;
   text-align: center;
   box-sizing: border-box;
   display: flex;
@@ -187,9 +188,8 @@ main {
 
 }
 .history-div-text {
-  /* background-color: #F7E5E8; */
   background-color: #CEE4D9;
-  /* background-color: #E4CED9; */
+  padding: 1rem;
 }
 
 .history-div img {
@@ -298,8 +298,9 @@ footer {
   overflow: hidden;
   font-size: 1rem;
   padding: 0.5% 1%;
-  border-top: 2px solid #252525;
+  /* border-top: 2px solid #252525; */
   margin-top: 15px;
+  background-color: white;
 }
 
 .footer-menu span a {
