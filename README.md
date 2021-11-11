@@ -87,7 +87,7 @@ It would have been nice to have a feedback form to obtain the users comments and
 
     Using the Chrome Development tools, the responsiveness of the site to various screen sizes was simulated. This led to the adjustment of the CSS until the site supports numerous device widths from the smallest hand held devices to full computer monitor screens.
     ![Responsive Screens](/docs/various_screen_sizes.png)
-    The first image above shows a full screen of three image columns and two video columns dsiplayed on a laptop computer screen. The images below the laptop screen are simulations on the ipad (with two image columns) and small screen of Moto G4 and Iphone X displaying single column for both video and images.
+    The first image above shows a full screen of two image columns and two video columns dsiplayed on a laptop computer screen. The images below the laptop screen are simulations on the ipad - portrait (with single image column) and small screen of Moto G4 and Iphone X displaying single column for both video and images.
 
 ## Deployment
 The site was deployed to GitHub pages. The following steps were used to effect the deployment:
