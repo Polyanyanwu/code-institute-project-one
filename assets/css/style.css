@@ -378,7 +378,10 @@ shift the menu to the left. ALso change our image gallery to single column  */
     /* align with the page title  */
     margin-left: 20px;
   }
-
+  #banner-ref {
+    font-size: 80%;
+    bottom: 10rem;
+  }
   #image-gallery {
     margin: 0 auto;
     flex-wrap: nowrap;
